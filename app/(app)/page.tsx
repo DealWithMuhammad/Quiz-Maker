@@ -191,7 +191,7 @@ export default function QuizMaker() {
       <Toaster position="top-right" />
       <h1 className="text-3xl font-bold mb-8 text-center">Quiz Maker</h1>
 
-      <div className="bg-white rounded-xl shadow-md p-6 mb-8">
+      <div className=" rounded-xl shadow-md p-6 mb-8">
         <TestHeader
           quizTitle={quizTitle}
           subject={subject}
