@@ -15,7 +15,6 @@ import { deleteAuthCookie } from "@/actions/auth.action";
 import { IoIosMenu } from "react-icons/io";
 import { SettingsIcon } from "../icons/sidebar/settings-icon";
 import { User } from "lucide-react";
-import UserProfile from "../profile/UserProfile";
 
 export const UserDropdown = () => {
   const router = useRouter();
@@ -60,12 +59,6 @@ export const UserDropdown = () => {
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>
-
-      {/* User Profile Modal */}
-      <UserProfile
-        isOpen={isProfileOpen}
-        onClose={() => setIsProfileOpen(false)}
-      />
     </>
   );
 };
